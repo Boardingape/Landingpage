@@ -16,7 +16,7 @@ body {
     border-bottom: 1mm solid #e5e7eb;
 }
 
-ul, li a {
+ul, li, a {
     text-decoration: none;
     list-style-type: none;
     color: #F9FAF8;
@@ -64,13 +64,15 @@ button.signup-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     padding: 50px 200px;
 }
 
-.img {
-    border: 3px #3882F6;
-    border-radius: 30%;
+.image {
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 .bottom {
